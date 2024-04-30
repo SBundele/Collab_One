@@ -1,0 +1,41 @@
+.card-container {
+  width: 80%;
+  margin: 10% auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.card {
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 8px;
+}
+.card > .card-image,
+.card-image > img {
+  width: 100%;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.card-image > img{
+    border-top: 10px solid rgb(188, 186, 186);
+}
+.card-content {
+  text-align: center;
+}
+.card-content > h3 {
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0;
+}
+.card-content > p{
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2px;
+}
+.company-logo {
+  width: 40%;
+  margin: auto;
+}
+.company-logo > img {
+  width: 100%;
+}
