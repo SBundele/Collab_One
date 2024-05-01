@@ -16,8 +16,8 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.card-image > img{
-    border-top: 10px solid rgb(188, 186, 186);
+.card-image > img {
+  border-top: 10px solid rgb(188, 186, 186);
 }
 .card-content {
   text-align: center;
@@ -27,10 +27,10 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 0;
 }
-.card-content > p{
-    font-size: 1.1rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 2px;
+.card-content > p {
+  font-size: 1.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 2px;
 }
 .company-logo {
   width: 40%;
